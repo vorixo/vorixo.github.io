@@ -13,6 +13,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="colorful.css">
   <!-- Script: Navbar on-top -->
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/popper.min.js"></script>
 </head>
 
 <body>
@@ -21,7 +24,12 @@
       <a class="navbar-brand" href="#"><b>ALVARO JOVER</b></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar3SupportedContent" aria-controls="navbar3SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse text-center justify-content-end" id="navbar3SupportedContent">
-        <a class="btn navbar-btn btn-outline-light" href="#projects">Projects</a><a class="btn navbar-btn btn-outline-light" href="#about-me">About</a><a class="btn navbar-btn btn-outline-light" href="https://vorixo.github.io/devtricks/" target="_blank" rel="noopener noreferrer">Blog</a><a class="btn text-white btn-link" href="https://www.linkedin.com/in/vorixo/"><i class="fa fa-linkedin fa-fw fa-1x py-1"></i></a><a class="btn text-white" href="https://twitter.com/vorixo"><i class="fa fa-twitter fa-fw fa-1x py-1"></i></a><a class="btn text-white" href="https://github.com/vorixo"><i class="fa fa-fw fa-1x py-1 fa-github"></i></a><a class="btn text-white" href="mailto:vorixo@gmail.com"><i class="fa fa-fw fa-1x py-1 fa-envelope"></i></a>
+        <ul class="navbar-nav me-auto">
+          <a class="btn navbar-btn btn-outline-light" href="#">Home</a>
+          <a class="btn navbar-btn btn-outline-light" href="#projects">Projects</a>
+          <a class="btn navbar-btn btn-outline-light" href="#about-me">About</a>
+          <a class="btn navbar-btn btn-outline-light" href="https://vorixo.github.io/devtricks/" target="_blank" rel="noopener noreferrer">Blog</a>
+      </ul>
       </div>
     </div>
   </nav>
@@ -142,7 +150,7 @@
         <div class="row">
           <div class="col-md-6 p-3 text-dark">
             <h2 class="mb-4 text-center">About me</h2>
-            <p class="text-center">I've been programming since 2011, however, my first contact with game development was thanks to a little text based game I made inspired by the Fallout series (2013).&nbsp;<br><br>My curiousity led me to wonder how modern games were made, so I decided to take a look at the most powerful game engines.&nbsp;<br><br>I also write on a <a href="https://vorixo.github.io/devtricks/" target="_blank" rel="noopener noreferrer">blog</a>.</p>
+            <p class="text-center">I've been programming since 2011, however, my first contact with game development was thanks to a little text based game I made inspired by the Fallout series (2013).&nbsp;<br><br>My curiousity led me to wonder how modern games were made, so I decided to take a look at the most powerful game engines.&nbsp;<br><br>I mentor beginners and I also write on a <a href="https://vorixo.github.io/devtricks/" target="_blank" rel="noopener noreferrer">blog</a>.</p>
           </div>
           <div class="col-md-6 p-3 text-dark">
             <h2 class="mb-4 text-center">What are my fields?</h2>
@@ -184,27 +192,22 @@
     </div>
     <div class="text-white bg-dark">
       <div class="container">
-        <div class="row">
-          <div class="p-5 col-md-12">
+          <div class="p-2 col-md-12">
             <div class="row">
-              <div class="col-md-6" style="">
-                <h3><b>Contact</b></h3>
-                <div class="row">
-                  <div class="col-md-6">
-                    <h4 style="" contenteditable="false">Get in touch!</h4>
-                  </div>
-                  <div class="col-md-6"><a class="btn navbar-btn btn-outline-light" href="mailto:vorixo@gmail.com">Send email</a></div>
-                </div>
+              <div class="col-sm text-center">
+                <a class="btn navbar-btn btn-outline-light" href="mailto:vorixo@gmail.com">Send me an email</a>
               </div>
-              <div class="col-md-6 text-center pb-2" style="">
-                <div class="col-md-12"></div>
-                <div class=""><a class="btn text-white btn-link text-center" href="https://www.linkedin.com/in/vorixo/"><i class="fa fa-linkedin fa-fw fa-1x py-1"></i></a><a class="btn text-white" href="https://twitter.com/vorixo"><i class="fa fa-twitter fa-fw fa-1x py-1"></i></a><a class="btn text-white" href="https://github.com/vorixo"><i class="fa fa-fw fa-1x py-1 fa-github"></i></a><a class="btn text-white" href="mailto:vorixo@gmail.com"><i class="fa fa-fw fa-1x py-1 fa-envelope"></i></a></div>
+              <div class="col-sm text-center">
+                  <a class="btn text-white btn-link text-center" href="https://www.linkedin.com/in/vorixo/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin fa-fw fa-1x py-1"></i></a>
+                  <a class="btn text-white" href="https://twitter.com/vorixo" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter fa-fw fa-1x py-1"></i></a>
+                  <a class="btn text-white" href="https://github.com/vorixo" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-1x py-1 fa-github"></i></a>
+                  <a class="btn text-white" href="mailto:vorixo@gmail.com"><i class="fa fa-fw fa-1x py-1 fa-envelope"></i></a>
               </div>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-12 mt-3">
+          <div class="col-md-12">
             <p class="text-center text-muted">© Copyright 2022 Alvaro Jover-Alvarez. All rights reserved. </p>
           </div>
         </div>
@@ -212,5 +215,4 @@
     </div>
   </div>
 </body>
-
 </html>
